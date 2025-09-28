@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Foundation Donations</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; color: #333; }
+        header { text-align: center; padding: 20px; background-color: #007bff; color: white; }
+        section { margin: 20px auto; max-width: 800px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #007bff; }
+        .donation-option { margin-bottom: 20px; }
+        .qr-code { max-width: 200px; }
+        footer { text-align: center; margin-top: 20px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Celebrity Foundation Donation Page</h1>
+        <p>Thank you for supporting our work in [BRIEF DESCRIPTION, e.g., fighting hunger and poverty]. Every donation helps!</p>
+    </header>
+
+    <section>
+        <h2>Donate via PayPal</h2>
+        <p>Secure and easy donations. Click the button below to contribute any amount.</p>
+        <!-- Paste your PayPal donate button code here -->
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID" /> <!-- Replace with your actual ID from PayPal -->
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+    </section>
+
+    <section>
+        <h2>Donate via Cash App</h2>
+        <p>Send any amount directly to our Cash App account.</p>
+        <a href="https://cash.app/$YOUR_CASHTAG" target="_blank" rel="noopener noreferrer">
+            <button style="background-color: #00D64F; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Donate with Cash App</button>
+        </a>
+        <p>Our Cashtag: $YOUR_CASHTAG</p>
+    </section>
+
+    <section>
+        <h2>Donate with Crypto</h2>
+        <p>Send cryptocurrency to the addresses below. Scan the QR code for easy transfer.</p>
+        
+        <div class="donation-option">
+            <h3>Bitcoin (BTC)</h3>
+            <p>Address: YOUR_BITCOIN_ADDRESS</p>
+            <img class="qr-code" src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=bitcoin:YOUR_BITCOIN_ADDRESS" alt="Bitcoin QR Code">
+        </div>
+        
+        <div class="donation-option">
+            <h3>Ethereum (ETH)</h3>
+            <p>Address: YOUR_ETHEREUM_ADDRESS</p>
+            <img class="qr-code" src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=ethereum:YOUR_ETHEREUM_ADDRESS" alt="Ethereum QR Code">
+        </div>
+        <!-- Add more crypto types if needed, e.g., for USDT or others -->
+    </section>
+
+    <section>
+        <h2>Donate with Gift Cards</h2>
+        <p>Purchase a gift card online and send it to our foundation email for use in our programs.</p>
+        <a href="https://www.amazon.com/gc/buy" target="_blank" rel="noopener noreferrer">
+            <button style="background-color: #FF9900; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Buy Amazon Gift Card</button>
+        </a>
+        <p>After purchase, email the gift card code to: donations@yourfoundation.org<br>
+        Or use TisBest for charity-specific cards: <a href="https://www.tisbest.org/" target="_blank">Donate via TisBest</a> (select our foundation if listed, or any charity).</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Celebrity Foundation. All rights reserved. Donations are tax-deductible where applicable.</p>
+    </footer>
+</body>
+</html>
